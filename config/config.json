@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "color-picker-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/colorPicker/ColorPickerWebPart.js",
+          "manifest": "./src/webparts/colorPicker/ColorPickerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ColorPickerWebPartStrings": "lib/webparts/colorPicker/loc/{locale}.js"
+  }
+}
